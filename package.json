@@ -1,0 +1,19 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "hello": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Qvidahl <thomas@qvidahl.no>",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "yargs": "13.2"
+  }
+}
