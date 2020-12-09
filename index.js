@@ -5,8 +5,9 @@
 const chalk = require("chalk");
 const boxen = require("boxen");
 const day1 = require("./1/1");
+const day2 = require("./2/2");
 
-var greeting = chalk.white.bold("Results for Day 1:\n");
+
 
 const boxenOptions = {
  padding: 1,
@@ -15,7 +16,12 @@ const boxenOptions = {
  borderColor: "green",
  backgroundColor: "#555555"
 };
-greeting += day1.day1();
-console.log(boxen( greeting, boxenOptions ));
 
+var d1 = chalk.white.bold("Results for Day 1:\n");
+d1 += day1.day1();
+console.log(boxen( d1, boxenOptions ));
+
+var d2 = chalk.white.bold("Results for Day 2:\n");
+d2 += day2.day2();
+console.log(boxen( d2, boxenOptions ));
 
