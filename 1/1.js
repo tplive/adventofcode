@@ -8,6 +8,10 @@ var array = array.map(function(i){
 var done = false;
 var a;
 var b;
+var c;
+var d;
+var e;
+
 
 while(done == false) {
     for(var j=0; j <= array.length; j++) {
@@ -20,8 +24,25 @@ while(done == false) {
         }
     }
 }
+done = false;
+while(done == false) {
+    for(var j=0; j <= array.length; j++) {
+        for(var k=0; k <= array.length; k++) {
+            for(var l=0; l<= array.length; l++) {
+                if(array[j] + array[k] + array[l] == 2020) {
+                    c = array[j];
+                    d = array[k];
+                    e = array[l];
+                    done = true;
+                }
+            }
+        }
+    }
+}
 
-var result =  "The magic numbers are " + a + " and " + b + "!\n" + "The product is " + a*b + "!";
+var result = "🏁 The magic numbers are " + a + " and " + b + "! 😅\n"
+result += "The product is " + a*b + "!\n";
+result += "And for the second part, the answer is " + c*d*e + "!";
 
 
 module.exports = {
