@@ -14,9 +14,9 @@ function pad(number, character) {
 
 function day3() {
 
-    //const array = getInput("./3/3.txt");
-    const array = getInput("./3/3s.txt");
-    const fasit = [".", "#", ".", "#", "#", ".", "#", "#", "#", "#"];
+    const array = getInput("./3/3.txt");
+    //const array = getInput("./3/3s.txt");
+    //const fasit = [".", "#", ".", "#", "#", ".", "#", "#", "#", "#"];
 
     var line = 0; // line in file
     var pos = 0; // pos on line
@@ -30,9 +30,6 @@ function day3() {
         if (pos >= length) {
             // If we are about to pass, reset pos to 0 + overflow
             pos = pos % length;
-
-        } else {
-            pos = pos + 3;
         }
         line++;
         console.log(pos, line)
