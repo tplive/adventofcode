@@ -26,7 +26,7 @@ function day2() {
         var minMatch = pass[min-1] == lett;
         var maxMatch = pass[max-1] == lett;
         var valid = (minMatch && !maxMatch) || (!minMatch && maxMatch);
-        console.log(pass, lett, minmax, min, max, minMatch, maxMatch, valid);
+        // debug console.log(pass, lett, minmax, min, max, minMatch, maxMatch, valid);
         return valid
     }
 
