@@ -55,7 +55,7 @@ function lookup(stepPos, stepLines) {
 function day3b() {
 
     var treesEncountered = "";
-    var totalTrees = 0;
+    var totalTrees = [];
     var tests = [
         [1,1],
         [3,1],
@@ -66,8 +66,14 @@ function day3b() {
     
     
     tests.forEach(test => {
-        treesEncountered += "Test " + test[0] + "x" + test[1] + " = " + lookup(test[0], test[1]) + "\n";
+        iter = lookup(test[0], test[1]);
+        totalTrees.push(iter);
+
+        treesEncountered += "Test " + test[0] + "x" + test[1] + " = " + iter + "\n";
     });
+
+    var product = totalTrees.reduce( (x, y) =>  x * y );
+    treesEncountered += "Total: " + product;
 
     return treesEncountered;
 }
