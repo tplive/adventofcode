@@ -1,22 +1,45 @@
 
-function day4() {
-    return null;
-}
-
 function getInput(file) {
     var fs = require('fs');
 
-    return fs.readFileSync(file).toString().split("\n");
+    return fs.readFileSync(file).toString().split("\n\n");
 }
 
-function pad(number, character) {
-    var res = "";
-    for (i = 0; i < number; i++) {
-        res += character;
+Array.prototype.contains = function (obj) {
+    var i = this.length;
+    while (i--) {
+        if (this[i] === obj) {
+            return true;
+        }
     }
-    return res;
+    return false;
 }
 
+
+function day4() {
+    var data = getInput("./4/4.txt");
+    var validCount = 0;
+
+    data.forEach(d => {
+        var d2 = d.replaceAll("\n", " ");
+        var fields = d2.split(" ");
+
+        if (fields.length >= 7) {
+            // Missing 'cid' is OK, but no other
+            for (var i = 0; i < fields.length; i++) {
+                if (fields[i].substr(0, 3) == "cid") {
+                    validCount++;
+                    break;
+                }
+            }
+        }
+    });
+
+    // More than 125
+    // Less than 251 (all)
+
+    return validCount;
+}
 
 
 module.exports = {
