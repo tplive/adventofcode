@@ -14,45 +14,38 @@ function pad(number, character) {
 
 function lookup(stepPos, stepLines) {
     
-    var line = 1; // line in file
-    var pos = 0; // pos on line
-    var trees = 0; // trees encountered
-
     const array = getInput("./3/3.txt");
     //const array = getInput("./3/3s.txt");
     //const fasit = [".", "#", ".", "#", "#", ".", "#", "#", "#", "#"];
 
     var line = 0; // line in file
     var pos = 0; // pos on line
-    var length = array[0].length - 1;
-    var treesEncountered = 0;
+    var lineLength = array[0].length;
+    var trees = 0;
 
     while (line < array.length - 1) {
         
+        pos = pos + stepPos;
         // If we are about to pass the right edge
         if (pos >= lineLength) {
             // If we are about to pass, reset pos to 0 + overflow
             pos = pos % lineLength;
 
-        } else {
-            pos = pos + stepPos;
         }
-
-        
-        console.log(pos, line)
+        line = line + stepLines;
+        // debug console.log(pos, line)
         // If there is a tree at that position, count it.
         if (array[line][pos] === "#") {
             trees++;
-            console.log(pad(pos, " ") + "#");
-        } else {
-            console.log(pad(pos, " ") + ".");
+            // debug console.log(pad(pos, " ") + "#");
+        // debug }  else {
+        //    console.log(pad(pos, " ") + ".");
         }
-        if (line == array.length) {
-            console.log("Last line");
-        } else {
-            console.log("Next line");
-        }
-        line = line + stepLines;
+        // if (line == array.length) {
+        //     console.log("Last line");
+        // } else {
+        //     console.log("Next line");
+        // }
 
     }
 
@@ -62,7 +55,7 @@ function lookup(stepPos, stepLines) {
 function day3b() {
 
     var treesEncountered = "";
-    
+    var totalTrees = 0;
     var tests = [
         [1,1],
         [3,1],
@@ -83,6 +76,6 @@ function day3b() {
 module.exports = {
     day3: function () {
 
-        return "First result: " + lookup(3,1) + "\nSecond result: " + "day3b()";
+        return "First result: " + lookup(3,1) + "\nSecond result: \n" + day3b();
     }
 }
