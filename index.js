@@ -19,18 +19,18 @@ const boxenOptions = {
  backgroundColor: "#555555"
 };
 
-var d1 = chalk.white.bold("Results for Day 1:\n");
-d1 += day1.day1();
-console.log(boxen( d1, boxenOptions ));
+// var d1 = chalk.white.bold("Results for Day 1:\n");
+// d1 += day1.day1();
+// console.log(boxen( d1, boxenOptions ));
 
-var d2 = chalk.white.bold("Results for Day 2:\n");
-d2 += day2.day2();
-console.log(boxen( d2, boxenOptions ));
+// var d2 = chalk.white.bold("Results for Day 2:\n");
+// d2 += day2.day2();
+// console.log(boxen( d2, boxenOptions ));
 
-var d3 = chalk.white.bold("Results for Day 3:\n");
-d3 += day3.day3();
-console.log(boxen( d3, boxenOptions ));
+// var d3 = chalk.white.bold("Results for Day 3:\n");
+// d3 += day3.day3();
+// console.log(boxen( d3, boxenOptions ));
 
-// var d4 = chalk.white.bold("Results for Day 4:\n");
-// d4 += day4.day4();
-// console.log(boxen( d4, boxenOptions ));
+var d4 = chalk.white.bold("Results for Day 4:\n");
+d4 += day4.day4();
+console.log(boxen( d4, boxenOptions ));
