@@ -1,0 +1,27 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{198D1E17-0003-48B1-817D-0967F48B4F08}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="adventofcode2021/Program.cs" Line="47" Column="4" />
+      <File FileName="adventofcode2021tests/UnitTest1.cs" Line="18" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="adventofcode2021" expanded="True">
+            <Node name="adventofcode2021" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="adventofcode2021tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.adventofcode2021 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

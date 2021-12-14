@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rcUULrEmE7kwfFVvS/g+Dg6oofZXPKZ8d+ZNoOgIowOTipWQ7/IkdIqVPQtNOhlsxmOV+CgV1L9g4rxovqkkHA==",
+  "success": true,
+  "projectFilePath": "/Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021/adventofcode2021.csproj",
+  "expectedPackageFiles": [
+    "/Users/thomasqvidahl/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.9/microsoft.netcore.app.host.osx-x64.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
