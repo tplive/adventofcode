@@ -18,3 +18,4 @@
 /Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021/obj/Debug/net5.0/ref/adventofcode2021.dll
 /Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021/obj/Debug/net5.0/adventofcode2021.pdb
 /Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021/obj/Debug/net5.0/adventofcode2021.genruntimeconfig.cache
+/Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021/bin/Debug/net5.0/adventofcode2021

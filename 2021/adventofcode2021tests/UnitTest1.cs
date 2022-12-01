@@ -35,5 +35,14 @@ namespace adventofcode2021tests
 
             Assert.True(result[0] * result[1] == 900);
         }
+
+        [Fact]
+        public void TestDay3()
+        {
+            var input = new List<string> { "00100", "11110", "10110", "10111", "10101", "01111", "00111", "11100", "10000", "11001", "00010", "01010", };
+            var result = Day3.day3a(input);
+
+            Assert.True(result[0] * result[1] == 198);
+        }
     }
 }

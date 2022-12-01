@@ -103,3 +103,4 @@
 /Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021tests/obj/Debug/net5.0/ref/adventofcode2021tests.dll
 /Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021tests/obj/Debug/net5.0/adventofcode2021tests.pdb
 /Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021tests/obj/Debug/net5.0/adventofcode2021tests.genruntimeconfig.cache
+/Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021tests/bin/Debug/net5.0/adventofcode2021

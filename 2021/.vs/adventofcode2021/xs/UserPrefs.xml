@@ -1,8 +1,8 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{198D1E17-0003-48B1-817D-0967F48B4F08}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="adventofcode2021/Program.cs">
     <Files>
-      <File FileName="adventofcode2021/Program.cs" Line="47" Column="4" />
-      <File FileName="adventofcode2021tests/UnitTest1.cs" Line="18" Column="41" />
+      <File FileName="adventofcode2021/Program.cs" Line="52" Column="44" />
+      <File FileName="adventofcode2021tests/UnitTest1.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,11 @@
             <Node name="adventofcode2021" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="adventofcode2021tests" expanded="True" />
+            <Node name="adventofcode2021tests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -21,7 +25,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/thomasqvidahl/source/adventofcode/2021/adventofcode2021/Program.cs" relfile="adventofcode2021/Program.cs" line="61" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

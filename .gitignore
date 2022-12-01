@@ -1,1 +1,7 @@
 node_modules
+2021/adventofcode2021/**/
+2021/adventofcode2021/obj/**
+20221/adventofcode2021
+2021/.vs/
+
+.DS_Store
