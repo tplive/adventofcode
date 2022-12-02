@@ -1,1 +1,0 @@
-/Users/thomasqvidahl/source/adventofcode/AoC_2022/build/classes/kotlin/main/MainKt.class
