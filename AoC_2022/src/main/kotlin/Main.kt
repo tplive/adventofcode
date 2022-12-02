@@ -23,17 +23,28 @@ fun main(args: Array<String>) {
 
     }
 
-    var max = 0
     val parts = readAndSplitInput(args[0])
+
+    val list = mutableListOf<Int>()
+
     for (part in parts) {
-        for (calories in part) {
-            val cal = sumCalories(part)
-            if (max < cal)
-                max = cal
+        val elf = part.split("\n")
+
+        var cals = 0
+        for (calories in elf) {
+            cals += sumCalories(calories)
         }
+
+        list.add(cals)
+
     }
 
-    println(max)
+    val sortedList = list.sortedDescending()
+    println(sortedList[0])
+    println(sortedList[1])
+    println(sortedList[2])
+    println(sortedList[0] + sortedList[1] + sortedList[2])
+
 
 
 }

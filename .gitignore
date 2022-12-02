@@ -4,4 +4,11 @@ node_modules
 20221/adventofcode2021
 2021/.vs/
 
+.idea
+.gradle
+build
+
+*.iws
+*.iml
+*.ipr
 .DS_Store
